@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+
 a: int = 1
 """An integer representing the default value."""
 
