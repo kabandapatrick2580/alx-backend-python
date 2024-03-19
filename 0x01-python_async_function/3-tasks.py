@@ -18,9 +18,9 @@ def task_wait_random(max_delay: int) -> asyncio.Task:
         asyncio.Task: A Task representing the asynchronous execution of wait_random.
     """
     # Get the current event loop
-    loop = asyncio.get_event_loop()
+    the_loop = asyncio.get_event_loop()
 
     # Create a task to asynchronously await the random delay
-    task = loop.create_task(wait_random(max_delay))
+    the_task = the_loop.create_task(wait_random(max_delay))
 
-    return task
+    return the_task
