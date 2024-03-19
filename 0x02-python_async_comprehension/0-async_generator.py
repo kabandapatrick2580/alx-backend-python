@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+"""Simple module"""
 import asyncio
 import random
 from typing import AsyncGenerator
